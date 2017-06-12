@@ -1,0 +1,45 @@
+.mouse:hover {
+	opacity: 0.6;
+	filter: Alpha(opacity=50);
+}
+body{
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+	text-align: center;
+	font-family: Calibri;
+	color: white;
+	letter-spacing: 0.5px;
+}
+h1,p, input, table, button, label{
+	text-transform: uppercase;
+}
+p{
+  font-size: 20px;
+}
+.c{
+	position:relative;
+	left:430px;
+}
+.clivros{
+	position:relative;
+	left:370px;
+	
+}
+input, select{
+	border-radius: 5px;
+	color: black;
+}
+table{
+	border-collapse: separate;
+	border-spacing: 0 8px;
+	margin-top: -8px;
+}
+.file{
+  width:100px;
+  height:100px;
+  cursor: pointer;
+  background-color:rgb(155,155,155);
+}
